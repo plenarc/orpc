@@ -16,5 +16,7 @@
 - oRPC core内でNim frontendまたはreactivity frameworkの開発を開始しない。
 - ドキュメントおよびexampleを実装と同期する。提案は提案であると明示し、未実装の
   機能を利用可能であるかのように記載しない。
+- YAMLファイルの拡張子は`.yaml`に統一する。`.yml`は使用しない。
 - file headerが適切な新規project-owned source fileにはMIT Licenseを適用する。
-  secret、build cache、local生成物をcommitしない。
+  secret、build cache、開発ツールがproject directoryに生成するlocal設定を
+  commitしない。
